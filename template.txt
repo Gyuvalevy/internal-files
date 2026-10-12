@@ -1,0 +1,16 @@
+Template
+
+Title: <title>
+Date: <YYYY-MM-DD>
+Author: <name>
+
+Summary:
+<one or two sentences describing the purpose of this file>
+
+Details:
+- <item 1>
+- <item 2>
+- <item 3>
+
+Notes:
+<any additional notes>

@@ -972,10 +972,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="F7OOyaAiH6MdvT6I_Jwm" name="Old Mirror Plan Dependency">
-    <mxGraphModel dx="1504" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1345" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UCnBkGJ_p_r8Kipbz-Lx-1" edge="1" parent="1" source="ASSOC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;curveGeometry=1;curved=1;" target="CALL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="622" y="250" />
+              <mxPoint x="277" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ASSOC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;" value="Move all association data reads to GDM" vertex="1">
           <mxGeometry height="60" width="210" x="517" y="150" as="geometry" />
         </mxCell>
@@ -1055,17 +1063,17 @@
         <mxCell id="e14" edge="1" parent="1" source="DELR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;strokeColor=#888780;strokeWidth=2;curved=1;curveGeometry=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DEL">
           <mxGeometry relative="1" x="-0.0066" as="geometry" />
         </mxCell>
-        <mxCell id="CALL" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;" value="Move call pipeline to read from new mirror and associator APIs" vertex="1">
+        <mxCell id="CALL" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;" value="Move call pipeline to read from GDM and associator APIs" vertex="1">
           <mxGeometry height="60" width="220" x="167" y="290" as="geometry" />
         </mxCell>
         <mxCell id="8LSdmGHwI3OlkjI9IKku-7" edge="1" parent="1" source="8LSdmGHwI3OlkjI9IKku-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;curveGeometry=1;dashed=1;strokeColor=#888780;strokeWidth=2;endArrow=open;endFill=0;" target="OPR">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8LSdmGHwI3OlkjI9IKku-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;" value="&lt;div&gt;GDM Field History including&lt;/div&gt;CRM History" vertex="1">
-          <mxGeometry height="60" width="200" x="247" y="110" as="geometry" />
+          <mxGeometry height="60" width="200" x="244" y="90" as="geometry" />
         </mxCell>
         <mxCell id="8LSdmGHwI3OlkjI9IKku-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5ee;strokeColor=#0f6e56;fontColor=#04342c;fontSize=14;" value="Delete crm_fields history" vertex="1">
-          <mxGeometry height="50" width="180" x="170" y="230" as="geometry" />
+          <mxGeometry height="50" width="180" x="167" y="199" as="geometry" />
         </mxCell>
         <mxCell id="8LSdmGHwI3OlkjI9IKku-3" edge="1" parent="1" source="8LSdmGHwI3OlkjI9IKku-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;curved=1;curveGeometry=1;strokeColor=#888780;strokeWidth=2;endArrow=open;endFill=0;" target="8LSdmGHwI3OlkjI9IKku-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1080,7 +1088,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Old Mirror Plan Dependency - Team Ownership" id="9Nyud2Q-HFrXos1DbURh">
-    <mxGraphModel dx="1686" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1345" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tYMpCXEFZIsmcnAzQjTN-0" />
         <mxCell id="tYMpCXEFZIsmcnAzQjTN-1" parent="tYMpCXEFZIsmcnAzQjTN-0" />
@@ -1163,7 +1171,7 @@
         <mxCell id="tYMpCXEFZIsmcnAzQjTN-24" edge="1" parent="tYMpCXEFZIsmcnAzQjTN-1" source="tYMpCXEFZIsmcnAzQjTN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;strokeColor=#888780;strokeWidth=2;curved=1;curveGeometry=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tYMpCXEFZIsmcnAzQjTN-13">
           <mxGeometry relative="1" x="-0.0066" as="geometry" />
         </mxCell>
-        <mxCell id="tYMpCXEFZIsmcnAzQjTN-25" parent="tYMpCXEFZIsmcnAzQjTN-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;fontStyle=1;strokeWidth=3;" value="Move call pipeline to read from new mirror and associator APIs" vertex="1">
+        <mxCell id="tYMpCXEFZIsmcnAzQjTN-25" parent="tYMpCXEFZIsmcnAzQjTN-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f1fb;strokeColor=#185fa5;fontColor=#0c447c;fontSize=14;fontStyle=1;strokeWidth=3;" value="Move call pipeline to read from GDM and associator APIs" vertex="1">
           <mxGeometry height="60" width="220" x="167" y="290" as="geometry" />
         </mxCell>
         <mxCell id="tYMpCXEFZIsmcnAzQjTN-26" edge="1" parent="tYMpCXEFZIsmcnAzQjTN-1" source="tYMpCXEFZIsmcnAzQjTN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;curveGeometry=1;dashed=1;strokeColor=#888780;strokeWidth=2;endArrow=open;endFill=0;" target="tYMpCXEFZIsmcnAzQjTN-6">
